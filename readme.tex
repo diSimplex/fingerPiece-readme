@@ -1,0 +1,95 @@
+% !TEX root = readme.tex
+% !LPiL preamble = ./rPreamble.tex
+% !LPiL postamble = ./rPostamble.tex
+
+\lpilTitle{fp-readme}[
+  Finger Pieces : Readme (first)
+]{
+  Finger Pieces : Readme (first) What are we doing?
+}
+\author{Stephen Gaito}
+
+\maketitle
+
+\begin{abstract}
+  In this finger piece, we explore what it is we hope to achieve and various
+  ways we might get there.
+\end{abstract}
+
+\lpilSection{readme-goals}{Goals}
+
+Our \emph{ultimate goal} is to understand how a computational entity, \emph{`a
+wee beastie'}, \emph{might} model Reality.
+
+Our \emph{penultimate goal} is to provide a \emph{possible} foundation for
+Mathematical Physics (and very probably Quantum Relativity).
+
+Along the way towards these goals we are going to have to weave a tapestry from
+the many bright threads of ideas taken from many different researchers. This
+work could \emph{not} have been done with out the generosity of these many
+researchers providing their papers and ideas in publicly accessible formats.
+
+\begin{quote}
+  We will be Magpie Mathematicians standing on the shoulders of
+  giants.
+\end{quote}
+
+The \emph{primary} work we will use is that of Glynn Winskel and his colleques.
+In particular his theme of \emph{event structures} from his PhD through to his
+recent work on (symmetric) Concurrent Stratgies, provides the backbone of our
+work. Glynn Winskel's vision will never be very far from anything we do.
+
+However we will need to update almost every aspect of this work to deal with
+\emph{massively parallel computation} which \emph{is} our approach to models of
+Reality.
+
+Equally important will be Glynn Winskel's insistance that to understand a
+computational tool or concept, you must understand its Categorical Theory, and
+how these concepts are reflected \emph{Categorically} in each other. This means
+that the diSimplex project(s) together with these finger-pieces, will be heavily
+Categorical. Category Theory is far more than `general abstract nonsense', it
+provides the super structure upon which the `house' will be built.
+
+\lpilSubSection{readme-concepts}{Introducing the main concepts}
+
+Since we are interested in how \emph{computational entities} model Reality, we
+must ultimately ground this work in the \textbf{Category of Turing machines}.
+
+However, while the Category of Turing Machines is (more or less) sufficient for
+our work, we prefer to use the \textbf{Category of JoyLoL} as the basis of our
+computational theory. We do this for a number of reasons.
+
+\textbf{\textit{Firstly}}, JoyLoL `programs` as we define them are inherently
+proveably \emph{correct}. As Mathematicians we are not particularly interested
+in the performance of JoyLoL programs, we \emph{are} however interested in
+whether or not they `compute' what they claim to compute\footnote{We would
+however be happy if our JoyLoL programs are in fact performable, but any
+performance is purely secondary.}. In deed many of our JoyLoL `programs' will
+explicitly \emph{never finish}. As such, we need to know that these never ending
+processes, actually compute what they claim to compute at each `step'.
+
+\textbf{\textit{Secondly}}, the JoyLoL programming langauge is by design, better
+suited to meta-level programming, and the symmetry between `(computational)
+time' and `(computational) space'.
+
+\textbf{\textit{Lastly}}, the JoyLoL programming langauge is, again, by design,
+inherently \emph{Categorical}. The \emph{state} and \emph{continuation} of a
+JoyLoL program are, respectively, the \emph{objects} and \emph{arrows} of the
+Category associated with the program text.
+
+Following Winskel, the \emph{semantics} of a computation is reflected in the
+collection of the associated \emph{event structures}. The bridge between a
+`program (text)' and its semantics, is, for us, provided by the \textbf{Category
+of Petri Nets} (which is in turn based on the \textbf{Category of Multi-Sets}).
+
+Essentially, to get the semantics of a program text, we `compile' it into a
+Coloured Petri Net\footnote{A Coloured Petri Net is essentially a block control
+flow diagram `coloured', in our case, with the additional pre and post
+conditions on the evolving state of the computation.} whose various potential
+\emph{unfoldings} provides the collection of \emph{occurance structures} in the
+\textbf{Category of Occurance Structures} (which is a sub-category of Petri
+Nets).
+
+Finally, stripping an Occurance structure of its conditions/places, yields the
+associated Event Structure in the \textbf{Category of Event Structures}.
+
