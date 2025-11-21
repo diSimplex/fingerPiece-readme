@@ -1,13 +1,17 @@
-//% !TEX root = readme.tex
-//% !LPiL preamble = ./rPreamble.tex
-//% !LPiL postamble = ./rPostamble.tex
-//% !LPiL collection = fingerPieces
-#set quote(block: true)
+///////////////////////////////////////////////
+// Imports
+
+#import "@local/lpit-publisher-papers:0.2.0" : *
+
+///////////////////////////////////////////////
+// Front matter
+
+#setupDoc(yaml("lpit.yaml"))
 
 // \lpilTitle{fp-readme}[
 //  Finger Pieces : Readme (first)
 //]{
-  Finger Pieces : Readme (first) What are we doing?
+//  Finger Pieces : Readme (first) What are we doing?
 //}
 //\author{Stephen Gaito}
 
@@ -17,6 +21,9 @@
   In this finger piece, we explore what it is we hope to achieve and various
   ways we might get there.
 //\end{abstract}
+
+///////////////////////////////////////////////
+// Body
 
 = Goals <readme-goals>
 
@@ -129,4 +136,7 @@ found by searching the Wikimedia Commons https://commons.wikimedia.org.].
 My point is, the Mathematical 'finger-pieces' you find here are collections of
 the working out of critical ideas, but none of these finger-pieces are
 necessarily #emph[coherent, whole] works.
+
+/////////////////////////////////////////////////////////////////
+// End matter
 

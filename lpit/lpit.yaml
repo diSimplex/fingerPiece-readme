@@ -1,0 +1,25 @@
+# This is the LPiT definition YAML file for the <<>> document
+
+doc:
+  id: fp-readme
+  name: readme
+  type: paper
+
+title:
+  short: "Finger Pieces : Readme (first)"
+  long: "Finger Pieces : Readme (first) What are we doing?"
+
+authors:
+  - given: Stephen
+    family: Gaito
+    order: givenFamily
+    email: stephen@perceptisys.co.uk
+
+#packages:
+#  - location: <<>> # optional
+#    name: <<>
+#    version: <<>>
+
+abstract: |
+  In this finger piece, we explore what it is we hope to achieve and various
+  ways we might get there.
