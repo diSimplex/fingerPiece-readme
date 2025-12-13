@@ -6,7 +6,7 @@
 ///////////////////////////////////////////////
 // Front matter
 
-#setupDoc(yaml("lpit.yaml"))
+#show: doc => setupDoc(yaml("lpit.yaml"), doc)
 
 // \lpilTitle{fp-readme}[
 //  Finger Pieces : Readme (first)
