@@ -140,3 +140,4 @@ necessarily #emph[coherent, whole] works.
 /////////////////////////////////////////////////////////////////
 // End matter
 
+#bibliography("doc.bib")
