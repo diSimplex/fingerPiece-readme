@@ -1,7 +1,7 @@
 # This is the LPiT definition YAML file for the <<>> document
 
 doc:
-  id: fp-readme
+  id: readme
   name: readme
   type: paper
 

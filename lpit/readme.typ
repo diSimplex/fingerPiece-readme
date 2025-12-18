@@ -8,19 +8,11 @@
 
 #show: doc => setupDoc(yaml("lpit.yaml"), doc)
 
-// \lpilTitle{fp-readme}[
-//  Finger Pieces : Readme (first)
-//]{
-//  Finger Pieces : Readme (first) What are we doing?
-//}
-//\author{Stephen Gaito}
 
-//\maketitle
-
-//\begin{abstract}
+#abstract[
   In this finger piece, we explore what it is we hope to achieve and various
   ways we might get there.
-//\end{abstract}
+]
 
 ///////////////////////////////////////////////
 // Body
